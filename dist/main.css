@@ -1,0 +1,44 @@
+:root {
+  --base: #e2725b;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
+}
+
+body {
+  text-align: center;
+  background: #708090;
+
+}
+
+.controls {
+  padding: 15px;
+}
+
+input {
+  width: 100px;
+}
+
+label {
+  font-family: 'Italiana', serif;
+  font-size: 40px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-family: 'Open Sans';
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+}
